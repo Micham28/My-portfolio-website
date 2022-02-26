@@ -11,8 +11,13 @@
 </head>
 <body><!--begin document-->
 	<div class="maincontent"><!--main content of the document sets universal parameters-->
-		<section class="PContact">
-			<div><img src="img/happyme.jpg" class="profile"></div><!--headshot-->
+	<section class="PContact">
+		<table class="upperT">
+		<tr>
+		<th rowspan="1" colspan="2">
+		<div><img src="img/happyme.jpg" class="profile"></div><!--headshot-->
+		</th>
+		<th>
 		<div class="name">Michael McAlexander</div><!--class for name to be able to off set the font-->
 		<div class="contact"><!--allows me to make the links any font/color i want-->
 			<a href="mailto:micham28@uw.edu">micham28@uw.edu</a>
@@ -20,39 +25,51 @@
 			<a href="tel:253-514-9738">(253)514-9738</a>
 			<br>
 		</div>
-		<p class="address">4222 68th st ct, Gig Harbor, WA 98335</p>
+		<p class="address">Gig Harbor, WA 98335</p>
 		<br>
-		</section>
+		</th>
+		</tr>
+		</table>
+	</section>
 		<section>
 			<div class="Education">EDUCATION</div><!--begin Educational info-->
 			<br>
-			<div class="education-work">University of Washington Tacoma <br> September 2018 - Present</div>
-			<p>Bachelor of Science: Information Technology
+			<div class="education-work"><strong>University of Washington Tacoma</strong> <br></div>
+			<div class="date"><strong>September 2018 - Present</strong><br></div>
+			<div class="info"><p>
+				Bachelor of Science: Information Technology
 				<br>
-				Overall GPA 2.94/4.0&emsp;Major GPA 3.2/4.0&emsp;Expected Graduation: March 2023</p>
-			<div class="education-work">Life Christian Academy <br> September 2014 - June 2018</div>
-			<p>High School Diploma GPA 3.2</p>
+				Overall GPA 2.94/4.0&emsp;Major GPA 3.2/4.0<br>Expected Graduation: March 2023</p></div>
+			<div class="education-work"><strong>Life Christian Academy</strong> <br></div>
+			<div class="date"><strong>September 2014 - June 2018</strong><br></div>
+			<div class="info"><p>
+			High School Diploma GPA 3.2<br>
+			Senior Class President
+			</p></div>
 			<br>
 		</section>
 		<!--END Educational information-->
 		<section>
 			<div class="RelevantCourseWork">RELEVANT COURSE WORK</div><!--begin relevant course info-->
 			<br>
-			<ol>
-				<li>T LIT 237 Introduction to Literature and Evironment (Technical Writing)</li>
-				<li>TCSS 141 Programing for all (Python)</li>
-				<li>T INFO 250 Foundations of Information Networking (CCNA)</li>
-				<li>T INFO 360 Information Systems Anaylsis and Design</li>
-				<li>T INFO 220 Foundations of Human Computer Interaction</li>
-				<li>T INFO 200 Programing II for Information Technology and Systems (C#)</li>
-				<li>T INFO 320 Hardware and Software Systems</li>
-				<li>T INFO 230 Foundations of Web Design and Programing</li>
+			<ol class="listed">
+				<li class="listedcont">T LIT 237 Introduction to Literature and Evironment (Technical Writing)</li>
+				<li class="listedcont">TCSS 141 Programing for all (Python)</li>
+				<li class="listedcont">T INFO 250 Foundations of Information Networking (CCNA)</li>
+				<li class="listedcont">T INFO 360 Information Systems Anaylsis and Design</li>
+				<li class="listedcont">T INFO 220 Foundations of Human Computer Interaction</li>
+				<li class="listedcont">T INFO 200 Programing II for Information Technology and Systems (C#)</li>
+				<li class="listedcont">T INFO 320 Hardware and Software Systems</li>
+				<li class="listedcont">T INFO 230 Foundations of Web Design and Programing</li>
 			</ol>
 			<br>
 		</section><!--END relevant course info-->
 		<section>
 			<div class="ComputerSkills">SKILLS</div><!--begin Skills info-->
 			<br>
+			<table class="midT">
+				<tr>
+				<th>
 				<div class="tools">Languages:</div><!--broken into their own classes so i can space them on one line evenly-->
 					<ol><!--ordered lists-->
 						<li>Visual Basic</li>
@@ -64,6 +81,8 @@
 						<li>CCNA</li>
 					</ol>
 					<br>
+				</th>
+				<th>
 				<div class="tools">Operatating Environment:</div>
 				<ol>
 					<li>Windows 10</li>
@@ -72,6 +91,8 @@
 					<li>Cisco OS</li>
 				</ol>
 					<br>
+				</th>
+				<th>
 				<div class="tools">Business Tools:</div>
 				<ol>
 					<li>Word processing</li>
@@ -82,6 +103,8 @@
 					<li>Excel</li>
 				</ol>
 					<br>
+				</th>
+				<th>
 				<div class="tools">Soft:</div>
 					<ol>
 						<li>Eagar to learn</li>
@@ -93,16 +116,19 @@
 						<li>Empathy</li>
 					</ol>
 					<br>
+				</th>
+				</tr>
+			</table>
 		</section><!--END relevant course info-->
 		<section>
 			<div class="Experience">EXPERIENCE</div><!--begin Experience info-->
 			<br>
 				<p>
 					<div class="job-title">Project Manager<br></div>
-					Fall 2021<br>
+					<div class="where">Fall 2021<br>
 					RFSC (Refugee Federation Service Center)<br>
-					Responsibilities:
-					<ol>
+					Responsibilities:</div>
+					<ol class="listedcont">
 						<li>Leading group POA (Plan of Action).</li>
 						<li>Benchmark team progress with currenty requirments.</li>
 						<li>Communication of client needs.</li>
