@@ -1,4 +1,4 @@
-const items = document.querySelectorAll(".RelevantCourseWork a");
+const items = document.querySelectorAll(".collapse a");
 function toggleAccordion(){
   this.classList.toggle('active');
   this.nextElementSibling.classList.toggle('active');

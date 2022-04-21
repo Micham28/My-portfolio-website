@@ -84,7 +84,7 @@ img{
 	padding: 3px;
 }
 
-.RelevantCourseWork{
+.collapse{
 	border: 1px solid black;
 	padding: 3px;
 	background-color: whitesmoke;
@@ -108,29 +108,29 @@ img{
   border-bottom: 1px solid #e5e5e5;
   background: whitesmoke;
 }
-.RelevantCourseWork a:hover,
-.RelevantCourseWork a:hover::after {
+.collapse a:hover,
+.collapse a:hover::after {
   cursor: pointer;
   color: #ff5353;
 }
-.RelevantCourseWork a:hover::after {
+.collapse a:hover::after {
   border: 1px solid #ff5353;
 }
-.RelevantCourseWork a.active {
+.collapse a.active {
   color: #ff5353;
   border-bottom: 1px solid #ff5353;
 }
-.RelevantCourseWork a::after {
+.collapse a::after {
  content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
   float: right;
   margin-left: 5px;
 }
-.RelevantCourseWork a.active::after {
+.collapse a.active::after {
   content: "\2796";
 }
-.RelevantCourseWork .listed {
+.collapse .col {
   opacity: 0;
   padding: 0 16px;
   max-height: 0;
@@ -141,11 +141,11 @@ img{
   transition: all 0.2s ease 0.15s;
   transition: all 0.2s ease 0.15s;
 }
-.RelevantCourseWork .listed li {
+.collapse .col li {
   font-size: 16px;
   font-weight: 300;
 }
-.RelevantCourseWork .listed.active {
+.collapse .col.active {
   opacity: 1;
   padding: 16px;
   max-height: 100%;
@@ -153,6 +153,9 @@ img{
   transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
 }
+
+
+
 .listedcont{
 	padding: 5px;
 }
