@@ -43,36 +43,6 @@ img{
   color: white;
 }
 
-.social a {
-  display: block;
-  padding: 16px;
-  height: 23px; 
-  color: #efefef;
-  font-size: 20px;
-  text-align: center;
-}
- 
-.fa-LinkedIn {
-  background: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-  padding: 17px 18px 17px 18px;
-  margin-right: 17px;
-}
-
-.fa-Facebook {
-  background: #3B5998;
-  padding: 17px 19px 17px 21px;
-  margin-right: 18px;
-}
-
-.fa-Discord {
-  background: #55ACEE;
- padding: 17px 18px 17px 17px;
-  margin-right: 17px;
-}
-
-.fa {
-color:#fff;
-}
 
 .icons-container{
   top:318px;
@@ -119,13 +89,7 @@ color:#fff;
 	max-width: 90%;
 	margin: 30px auto;
 }
-.formsofcontact{
-	align-content: left;
-	text-align: left;
-	padding: 15px;
-	
 
-}
 
 .tysca{
 	align-content: center;
