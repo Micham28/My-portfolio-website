@@ -157,7 +157,7 @@ img{
 }
 
 .profile{
-	width: 270px;
+	width: 200px;
 	height: 140px;
 	align-content: right;
 	padding right: 10px;
@@ -205,7 +205,7 @@ img{
 .collapse{
 	border: 1px solid black;
 	padding: 3px;
-	background-color: lightcyan;
+	background-color: linear-gradient(to bottom, #66ffff 0%, #0099cc 100%);
 
 	position: relative;
   display: box;
@@ -224,7 +224,7 @@ img{
   font-size: 18px;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
-  background: lightcyan;
+  background: linear-gradient(to bottom, #66ffff 0%, #0099cc 100%);
 }
 .collapse a:hover,
 .collapse a:hover::after {
