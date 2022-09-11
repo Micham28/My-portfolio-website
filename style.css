@@ -11,7 +11,7 @@ html{
 body{
 	border-style: solid;
 	line-height: 1;
-	background: lightcyan;
+	background: linear-gradient(to top, #ccffff 0%, #00ccff 100%);
 
 	
 }
