@@ -101,7 +101,7 @@ img{
 	margin-top: 50px;
 	margin-right: 100px;
 	margin-left: 100px;
-	background-color: lightsteelblue;
+	background: linear-gradient(145deg, rgb(195, 240, 200), rgb(80, 155, 245));
 	
 }
 
