@@ -375,21 +375,51 @@ with a fixed width and height */
 /* Set the background color
 of each of the slides */
 .slide:nth-child(1) {
-  background: green;
+  background: purple;
 }
  
 .slide:nth-child(2) {
-  background: pink;
+  background: gold;
 }
  
 .slide:nth-child(3) {
-  background: red;
+  background: Purple;
 }
  
 .slide:nth-child(4) {
-  background: yellow;
+  background: gold;
+}
+.slide:nth-child(5) {
+  background: purple;
+}
+.slide:nth-child(6) {
+  background: gold;
 }
  
+.slide:nth-child(7) {
+  background: purple;
+}
+.slide:nth-child(8) {
+  background: gold;
+}
+.slide:nth-child(9) {
+  background: purple;
+}
+.slide:nth-child(10) {
+  background: gold;
+}
+.slide:nth-child(11) {
+  background: purple;
+}
+.slide:nth-child(12) {
+  background: gold;
+}
+.slide:nth-child(13) {
+  background: purple;
+}
+.slide:nth-child(14) {
+  background: gold;
+}
 /* Define the animation
 for the slideshow */
 @keyframes slide {
