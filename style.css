@@ -138,10 +138,10 @@ img{
 
 .titlehead{
   text-align: center;
-  background: linear-gradient(to top, #0099cc 0%, #bcfeff 100%);
+  background: linear-gradient(to top, #00394d 15%, #bcfeff 85%);
   font-family: Open Sans SemiBold, sans-serif;
 	font-size: 50px;
-	color: #555555;
+	color: #FFFFFF;
 	text-shadow: 2px 2px 7px yellow;
 }
 
